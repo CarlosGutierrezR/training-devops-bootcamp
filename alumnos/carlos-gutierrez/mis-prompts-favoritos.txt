@@ -1,0 +1,3 @@
+- Explícame esto paso a paso y sin saltarte nada.
+- Dame un solo comando por mensaje y espero la salida.
+- Revisa bien antes de responder y no inventes nada.

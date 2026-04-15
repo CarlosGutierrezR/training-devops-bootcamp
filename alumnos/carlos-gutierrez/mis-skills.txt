@@ -1,0 +1,5 @@
+- Uso intermedio de terminal
+- Trabajo básico con Git y ramas
+- Docker básico
+- GitHub Actions básico
+- Entorno local con WSL2

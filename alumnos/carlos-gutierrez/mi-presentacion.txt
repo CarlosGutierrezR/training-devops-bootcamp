@@ -1,0 +1,1 @@
+Soy Carlos Alberto Gutiérrez Rondón y curso el Máster en Ingeniería Informática en la UGR. Trabajo habitualmente con Windows y WSL2, y tengo un nivel intermedio en el uso de la terminal. En este bootcamp quiero reforzar especialmente la parte práctica de Docker, Kubernetes y DevOps.

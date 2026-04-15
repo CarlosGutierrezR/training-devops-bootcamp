@@ -1,0 +1,1 @@
+He realizado una práctica básica de GitHub Actions creando un workflow llamado "PromptLab Hello CI". La ejecución se validó correctamente en la rama ci/carlos-hello-workflow y el job mostró el mensaje: "PromptLab CI funciona".

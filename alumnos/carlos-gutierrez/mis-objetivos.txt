@@ -1,0 +1,5 @@
+- Aprender Docker de forma práctica
+- Entender mejor Kubernetes
+- Mejorar mi flujo de trabajo con Git y GitHub
+- Dar mis primeros pasos sólidos en CI/CD
+- Adquirir experiencia real en DevOps práctico

@@ -1,0 +1,6 @@
+- Windows
+- WSL2
+- VS Code
+- Git
+- GitHub
+- Docker

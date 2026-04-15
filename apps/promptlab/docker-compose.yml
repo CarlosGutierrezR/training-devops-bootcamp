@@ -5,6 +5,7 @@ services:
       - "${API_PORT:-3001}:3001"
     environment:
       - PORT=3001
+      - NODE_ENV=${NODE_ENV}
       - GEMINI_API_KEY=${GEMINI_API_KEY:-}
       - GEMINI_MODEL=${GEMINI_MODEL:-}
     volumes:

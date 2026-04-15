@@ -1,0 +1,14 @@
+name: PromptLab Hello CI
+
+on:
+  push:
+    branches:
+      - ci/carlos-hello-workflow
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run hello
+        run: echo "PromptLab CI funciona"

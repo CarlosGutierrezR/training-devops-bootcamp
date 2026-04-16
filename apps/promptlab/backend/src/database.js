@@ -1,12 +1,18 @@
 const Database = require('better-sqlite3');
 const path = require('path');
+const fs = require('fs');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '..', 'data', 'promptlab.db');
 
 let db;
 
+function ensureDbDir() {
+  fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
+}
+
 function getDb() {
   if (!db) {
+    ensureDbDir();
     db = new Database(DB_PATH);
     db.pragma('journal_mode = WAL');
     db.pragma('foreign_keys = ON');
